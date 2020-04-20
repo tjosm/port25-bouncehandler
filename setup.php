@@ -49,7 +49,7 @@ $softbounceCategories = array("bad-configuration", "bad-connection", "content-re
 
 // ------------------------------------------------------------------------------------------------------
 // RRD Graphs - requires installation of php-rrdtool - if not defined, it will not be enabled
-define("RRD_FILE",        "/var/log/pmta/pmta.rrd");
+// define("RRD_FILE",        "/var/log/pmta/pmta.rrd");
 
 // ------------------------------------------------------------------------------------------------------
 // INTERSPIRE BOUNCE CONFIGURATION - leave empty/undefined if not needed
