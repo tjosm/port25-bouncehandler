@@ -41,7 +41,7 @@ $LOG_STATS_FILE      = "/var/log/pmta/pmta-bounce-stats.log";
 
 // Handle the following bounce-categories only
 // Leave empty to handle all bounce-categories
-$bounceCategories = array("bad-mailbox","bad-domain","routing-errors","inactive-mailbox","spam-related", "policy-related");
+$bounceCategories = array("bad-mailbox","bad-domain","routing-errors","inactive-mailbox", "bad-configuration", "bad-connection", "content-related", "invalid-sender", "other", "policy-related", "quota-issues", "spam-related", "virus-related");
 
 // Specify soft-bounce-categories. This is used to classify bounces in MailWizz as a soft-bounce. If not in the list or if the
 // list is empty, all bounces are considered hard-bounces
