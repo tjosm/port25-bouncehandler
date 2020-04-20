@@ -88,6 +88,8 @@ function MailWizz_unsubscribeRecipient($recipient,$Mailwizz_bounceRecord) {
 
   // Check if subscriber exists
   $response = $MailWizzSubscriberEndPoint->emailSearchAllLists($recipient, $pageNumber = 1, $perPage = 30);
+ 
+  print_r ($response);
 
   if ($response->body['status'] == "success" && $response->body['data']['count'] > 0) {
     // Check if we have a bounce-record so that we can get details
