@@ -67,7 +67,7 @@ define("MAILWIZZ_API_PRIVATE_KEY",  "MY_PRIVATE_KEY");
 define("MAILWIZZ_ENDPOINT_URL",     "https://mailer.vpsfix.com/api");
 
 // Define which from-addresses should be handled for the bounces
-$origMailWizzZA = array("campaign@mailwizz.com", "campaign2@mailwizz.com", "campaign.fbl@mailwizz.com");
+$origMailWizzZA = array("campaign@mailwizz.com");
 
 // ------------------------------------------------------------------------------------------------------
 // TRANSACTIONAL BOUNCE CONFIGURATION - leave empty/undefined if not needed
