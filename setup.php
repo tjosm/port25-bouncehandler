@@ -36,7 +36,7 @@ $LOG_FILE         = "/var/log/bounce/pmta-bounce-handler.log";
 
 // Statistics handling
 $LOG_STATS_FILE_ONLY = true; // set to true if you want to skip email notifications
-$LOG_STATS_FILE      = "/var/log/pmta/pmta-bounce-stats.log";
+$LOG_STATS_FILE      = "/var/log/bounce/pmta-bounce-stats.log";
 
 
 // Handle the following bounce-categories only
