@@ -32,7 +32,7 @@
 
 // Logging configuration. 1=log to console / 0=log to file
 $LOG_CONSOLE_MODE = 0;
-$LOG_FILE         = "/var/log/pmta/pmta-bounce-handler.log";
+$LOG_FILE         = "/var/log/bounce/pmta-bounce-handler.log";
 
 // Statistics handling
 $LOG_STATS_FILE_ONLY = true; // set to true if you want to skip email notifications
